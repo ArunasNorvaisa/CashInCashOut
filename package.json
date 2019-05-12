@@ -1,0 +1,15 @@
+{
+  "name": "paysera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Arunas Norvaisa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jest": "^24.8.0"
+  }
+}
