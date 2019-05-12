@@ -38,14 +38,14 @@ describe('cashOutJuridical', () => {
 
 test('cashOutNatural', () => {
   const ops = [
-    { date: '2019-05-06', user_id: 1, operation: { amount: 1300, currency: 'EUR' }},
-    { date: '2019-05-07', user_id: 1, operation: { amount: 2000, currency: 'EUR' }},
-    { date: '2019-05-07', user_id: 1, operation: { amount: 100, currency: 'EUR' }},
-    { date: '2019-05-10', user_id: 1, operation: { amount: 100, currency: 'EUR' }},
-    { date: '2019-05-10', user_id: 3, operation: { amount: 100, currency: 'EUR' }},
-    { date: '2019-05-12', user_id: 3, operation: { amount: 1100, currency: 'EUR' }},
-    { date: '2019-05-13', user_id: 3, operation: { amount: 1000, currency: 'EUR' }},
-    { date: '2019-05-15', user_id: 1, operation: { amount: 300, currency: 'EUR' }}
+    { date: '2019-05-06', user_id: 1, operation: { amount: 1300 }},
+    { date: '2019-05-07', user_id: 1, operation: { amount: 2000 }},
+    { date: '2019-05-07', user_id: 1, operation: { amount: 100 }},
+    { date: '2019-05-10', user_id: 1, operation: { amount: 100 }},
+    { date: '2019-05-10', user_id: 3, operation: { amount: 100 }},
+    { date: '2019-05-12', user_id: 3, operation: { amount: 1100 }},
+    { date: '2019-05-13', user_id: 3, operation: { amount: 1000 }},
+    { date: '2019-05-15', user_id: 1, operation: { amount: 300 }}
   ];
   const options = { percents: 0.3, week_limit: { amount: 1000 }};
   let natOps = {}, commissions = [];
