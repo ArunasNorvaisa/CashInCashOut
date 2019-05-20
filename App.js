@@ -10,6 +10,7 @@ async function loadConfiguration() {
   let cashInOptions,
       cashOutOptionsJuridical,
       cashOutOptionsNatural;
+
   await axios
     .all([
       axios.get(
