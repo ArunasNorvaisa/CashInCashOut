@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const axios = require('axios');
 const { cashIn, cashOutJuridical, cashOutNatural } = require('./functions.js');
 
@@ -7,7 +7,10 @@ json = json[0];
 const data = JSON.parse(fs.readFileSync(`${json}`, 'utf8'));
 
 async function loadConfiguration() {
-  let cashInOptions, cashOutOptionsJuridical, cashOutOptionsNatural;
+  let cashInOptions,
+      cashOutOptionsJuridical,
+      cashOutOptionsNatural;
+
   await axios
     .all([
       axios.get(
