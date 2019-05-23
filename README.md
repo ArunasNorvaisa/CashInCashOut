@@ -1,8 +1,8 @@
 # Frontend užduoties sprendimas
-Išspręsta Paysera frontend užduotis.
+Išspręsta frontend užduotis.
 
 ## Versija
-* 1.0
+* 1.0.2
 
 ## Instaliavimo instrukcijos:
 
