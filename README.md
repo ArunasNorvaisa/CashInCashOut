@@ -1,4 +1,4 @@
-# Paysera (Frontend) užduoties sprendimas
+# Frontend užduoties sprendimas
 Išspręsta Paysera frontend užduotis.
 
 ## Versija
